@@ -1,5 +1,5 @@
 (function () {
-  const API_HOST = "http://92.124.148.159:8002";
+  const API_HOST = "http://0.0.0.0:80";
   const sameOriginAsApi =
     location.protocol.startsWith("http") &&
     (location.origin === API_HOST || location.port === "8002");
